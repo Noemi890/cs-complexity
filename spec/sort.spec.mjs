@@ -16,7 +16,7 @@ describe('bubbleSort', function() {
 })
 
 describe('selectionSort', function() {
-    it('correctly sorts', function() {
+    fit('correctly sorts', function() {
         const sorted = selectionSort(unsortedData);
         expect(sorted).toEqual(sortedData);
     })
